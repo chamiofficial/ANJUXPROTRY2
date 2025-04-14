@@ -43,7 +43,7 @@ module.exports = {
     SESSION_ID: process.env.SESSION_ID || "ANJU-XPRO~u2wkGKiD#p5HX32OmifJ97fMgoJ2z4ccszMoV2xpqBFRM1NKuqHc",
     GITHUB_TOKEN: process.env.GITHUB_TOKEN || "FVdikXn7mHjOitVZ6nqvCNQ9uooInl3ITI9X",
     GITHUB_USERNAME: process.env.GITHUB_USERNAME || "chamiofficial",
-    SUDO: process.env.SUDO ? process.env.SUDO.split(",") : ["94775512050","94741230539"],
+    SUDO: process.env.SUDO ? process.env.SUDO.split(",") : ["94775512050","94741230539","94766212962","94701454728"],
     PORT: process.env.PORT || "8000",
     SESSION_DIR: process.env.SESSION_DIR || "./session",
     FOOTER: process.env.FOOTER || "> *ＤＡＲＫＡＬＰＨＡＸＴＥＡＭ*" 
