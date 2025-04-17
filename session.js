@@ -27,12 +27,7 @@
 //GitHub: @Mrrashmika
 //WhatsApp: +94717775628
 //Want more free bot scripts? Subscribe to my YouTube channel: https://youtube.com/@gamingrash2006
-//   * Created By GitHub: Mrrashmika
-//   * Credit To Janith Rashmika
-//   * © 2025 © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ-V4.
-// ⛥┌┤
-// */
-
+//   * Create
 const fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
@@ -40,7 +35,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "ANJU-XPRO~DBMCXDgI#kHpi4NjFpcf8tjBS2YBqCiVB73Ieavw3Jd1orwGWSbg",
+    SESSION_ID: process.env.SESSION_ID || "ANJU-XPRO~nQ9wgbrC#B11iwAQ7UTocQsqQug11ZGd4ULDhZCxr4LiEHgOkMeg",
     GITHUB_TOKEN: process.env.GITHUB_TOKEN || "FVdikXn7mHjOitVZ6nqvCNQ9uooInl3ITI9X",
     GITHUB_USERNAME: process.env.GITHUB_USERNAME || "chamiofficial",
     SUDO: process.env.SUDO ? process.env.SUDO.split(",") : ["94775512050","94741230539","94701454728"],
