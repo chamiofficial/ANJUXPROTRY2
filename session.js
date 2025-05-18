@@ -41,6 +41,5 @@ module.exports = {
     SUDO: process.env.SUDO ? process.env.SUDO.split(",") : ["94775512050","94741230539","94701454728","94783620874"],
     PORT: process.env.PORT || "8000",
     SESSION_DIR: process.env.SESSION_DIR || "./session",
-    FOOTER: process.env.FOOTER || "> *ＤＡＲＫＡＬＰＨＡＸＴＥＡＭ*" 
+    FOOTER: process.env.FOOTER || "🪷 *ＰＩＮＫ ＬＯＴＵＳ ＣＩＮＥＭＡ* 🪷\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴍ ©️" 
   };
-  
