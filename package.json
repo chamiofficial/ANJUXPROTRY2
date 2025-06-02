@@ -33,6 +33,7 @@
     "genius-lyrics": "^4.4.7",
     "google-tts-api": "2.0.2",
     "https": "^1.0.0",
+    "jimp": "^0.16.1",
     "image-upscaler": "^0.0.7",
     "lyrics-search": "^1.0.0",
     "megajs": "^1.1.0",
