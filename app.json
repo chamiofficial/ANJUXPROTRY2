@@ -8,7 +8,7 @@
     "SESSION_ID": {
       "description": "Put the session-id here.",
       "required": true,
-      "value": "ANJU-XPRO~"
+      "value": "ANJU-XPRO~LtRHxCyL#neEeZ_YPFAK15-bnzfMPaMfVht-qdaHgFXCocsUVUik"
     },
     "BOT_NUMBER": {
       "description": "The bot's phone number(Web accout created)",
