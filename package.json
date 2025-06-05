@@ -30,6 +30,7 @@
     "form-data": "^4.0.1",
     "fs-extra": "^11.1.0",
     "g-i-s": "^2.1.7",
+    "jimp": "^0.16.1",
     "genius-lyrics": "^4.4.7",
     "google-tts-api": "2.0.2",
     "https": "^1.0.0",
