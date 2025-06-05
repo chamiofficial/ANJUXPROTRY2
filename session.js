@@ -2,7 +2,7 @@
 //                                                                                                      //
 //                                   𝗤𝗨𝗘𝗘𝗡-𝗔𝗡𝗝𝗨 𝗫ᴾᴿᴼ 𝐁𝐎𝐓                                               //
 //                                                                                                      //
-//                                         Ｖ：4.0                                                       //
+//                                         Ｖ：5.0.0                                                       //
 //
 //
 //░██████╗░██╗░░░██╗███████╗███████╗███╗░░██╗  ░█████╗░███╗░░██╗░░░░░██╗██╗░░░██╗  ██╗░░██╗██████╗░██████╗░░█████╗░
@@ -10,14 +10,14 @@
 //██║██╗██║██║░░░██║█████╗░░█████╗░░██╔██╗██║  ███████║██╔██╗██║░░░░░██║██║░░░██║  ░╚███╔╝░██████╔╝██████╔╝██║░░██║
 //╚██████╔╝██║░░░██║██╔══╝░░██╔══╝░░██║╚████║  ██╔══██║██║╚████║██╗░░██║██║░░░██║  ░██╔██╗░██╔═══╝░██╔══██╗██║░░██║
 //░╚═██╔═╝░╚██████╔╝███████╗███████╗██║░╚███║  ██║░░██║██║░╚███║╚█████╔╝╚██████╔╝  ██╔╝╚██╗██║░░░░░██║░░██║╚█████╔╝
-//░░░╚═╝░░░░╚═════╝░╚══════╝╚══════╝╚═╝░░╚══╝  ╚═╝░░╚═╝╚═╝░░╚══╝░╚════╝░░╚═════╝░  ╚═╝░░╚═╝╚═╝░░░░░╚═╝░░╚═╝░╚════╝░                                           
+//░░░╚═╝░░░░╚═════╝░╚══════╝╚══════╝╚═╝░░╚══╝  ╚═╝░░╚═╝╚═╝░░╚══╝░╚════╝░░╚═════╝░  ╚═╝░░╚═╝╚═╝░░░░░╚═╝░░╚═╝░╚════╝░
 //
 //
 //
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
 //*
 //  * @project_name : © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ
-//  * @version      : 4.0
+//  * @version      : 5.0
 //  * @author       : Janith Rashmika
 //  * @youtube      : https://www.youtube.com/@gamingrash2006
 //  * @description  : © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ, A Multi-functional WhatsApp bot created by Janith Rashmika.
@@ -27,19 +27,30 @@
 //GitHub: @Mrrashmika
 //WhatsApp: +94717775628
 //Want more free bot scripts? Subscribe to my YouTube channel: https://youtube.com/@gamingrash2006
-//   * Create
-const fs = require('fs');
-if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
+//   * Created By GitHub: Mrrashmika
+//   * Credit To Janith Rashmika
+//   * © 2025 © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ-V4.
+// ⛥┌┤
+// */
 
-function convertToBool(text, fault = 'true') {
-    return text === fault ? true : false;
+const fs = require("fs");
+if (fs.existsSync("config.env"))
+  require("dotenv").config({ path: "./config.env" });
+
+function convertToBool(text, fault = "true") {
+  return text === fault ? true : false;
 }
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "ANJU-XPRO~HghG0QCa#JLWMpmAHINd2mkZg3zkO5eX3DnkjsVv8CKxzrELYfGc",
-    GITHUB_TOKEN: process.env.GITHUB_TOKEN || "FVdikXn7mHjOitVZ6nqvCNQ9uooInl3ITI9X",
-    GITHUB_USERNAME: process.env.GITHUB_USERNAME || "chamiofficial",
-    SUDO: process.env.SUDO ? process.env.SUDO.split(",") : ["94775512050","94741230539","94701454728","94783620874"],
-    PORT: process.env.PORT || "8000",
-    SESSION_DIR: process.env.SESSION_DIR || "./session",
-    FOOTER: process.env.FOOTER || "🪷 *ＰＩＮＫ ＬＯＴＵＳ ＣＩＮＥＭＡ* 🪷\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴍ ©️" 
-  };
+  SESSION_ID:
+    process.env.SESSION_ID ||
+    "ANJU-XPRO~sj0kzCZZ#HcRzIGcHCHTVPxG1vG1_955VLURzyC2kb6tQr_MvD2o",
+  BOT_NUMBER:
+    process.env.BOT_NUMBER || "94788749741",
+  PASSWORD: 
+    process.env.PASSWORD || "6789",
+  SUDO: process.env.SUDO
+    ? process.env.SUDO.split(",")
+    : ["94741230539", "94788749741"],
+  PORT: process.env.PORT || "3000",
+  SESSION_DIR: process.env.SESSION_DIR || "sess",
+};
