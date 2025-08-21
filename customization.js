@@ -122,7 +122,7 @@ Twitter URL: ${q}
   SINHALASUB: function (movieData) {
     return `
 
-☘️ *𝗧ɪᴛʟᴇ : *_${movieData.title}_*
+☘️ *𝗧ɪᴛʟᴇ : _${movieData.title}_*
 
 ▫️📅 *𝗥ᴇʟᴇᴀꜱᴇ 𝗗ᴀᴛᴇ ➟ _${movieData.metadata?.releaseDate || "𝙽/𝙰"}_*
 ▫️🥇 *𝗜ᴍᴅʙ 𝗩ᴏᴛᴇꜱ ➟ _${movieData.rating?.value || "𝙽/𝙰"} Votes ★_*
@@ -159,7 +159,7 @@ Twitter URL: ${q}
   CINETVSHOW: function (movieResponse) {
     return `
 
-*📽️ 𝙳𝙰𝚁𝙺𝙰𝙻𝙿𝙷𝙰 𝚇 𝚃𝙴𝙰𝙼 𝚃𝚅 𝚂𝙷𝙾𝚆 📽️*
+🪷 *ＰＩＮＫ ＬＯＴＵＳ ＴＶ ＳＨＯＷ* 🪷
 
 📺 *𝚃𝚅 𝚂𝚑𝚘𝚠 𝙽𝚊𝚖𝚎 :* ${movieResponse.episodeInfo?.title || "𝙽/𝙰"}
 🎞️ *𝙴𝚙𝚒𝚜𝚘𝚍𝚎 𝚃𝚒𝚝𝚕𝚎:* ${movieResponse.episodeInfo?.episodeTitle || "𝙽/𝙰"}
@@ -185,6 +185,8 @@ Twitter URL: ${q}
   CINETVSHOWALLDL: function (movieData) {
     return `
 
+🪷 *ＰＩＮＫ ＬＯＴＵＳ ＴＶ ＳＨＯＷ* 🪷
+
 ✨ *𝚃𝚅 𝚂𝚑𝚘𝚠 𝚃𝚒𝚝𝚕𝚎:* ${movieData.data.title}
 📆 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${movieData.data.releaseDate}
 🌐 *𝙽𝚎𝚝𝚠𝚘𝚛𝚔:* ${movieData.data.network}
@@ -193,9 +195,7 @@ Twitter URL: ${q}
 
 *𝙹𝙾𝙸𝙽 𝚄𝚂 ➟* https://chat.whatsapp.com/ERT4o7zc5mR4Xp5AHxDkFf
 
-*➟➟➟➟➟➟➟➟➟➟➟➟➟➟➟*
-
-`.trim();
+*➟➟➟➟➟➟➟➟➟➟➟➟➟➟➟*`.trim();
   },
   SINHALASUBTVSHOWALLDL: function (movieData) {
     return `
