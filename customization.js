@@ -140,7 +140,7 @@ Twitter URL: ${q}
   CINESUBZ: function (title, metadata, rating) {
     return `
 
-☘️ *𝗧ɪᴛʟᴇ : *_${title}_*
+☘️ *𝗧ɪᴛʟᴇ : _${title}_*
        
 ▫️📅 *𝗥ᴇʟᴇᴀꜱᴇ 𝗗ᴀᴛᴇ ➟ _${metadata?.releaseDate || "𝙽/𝙰"}_*
 ▫️🥇 *𝗜ᴍᴅʙ 𝗩ᴏᴛᴇꜱ ➟ _${rating?.value || "𝙽/𝙰"} Votes ★_*
