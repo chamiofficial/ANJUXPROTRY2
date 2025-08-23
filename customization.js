@@ -114,9 +114,7 @@ Twitter URL: ${q}
   },
   //====================movie======================================
   GROUP: function (groupName) {
-    return `
-📨 *𝙎𝙝𝙖𝙧𝙚𝙙 𝙄𝙣:* ${groupName}
-        `.trim();
+    return ``.trim();
   },
   SINHALASUB: function (movieData) {
     return `
