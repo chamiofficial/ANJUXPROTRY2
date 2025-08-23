@@ -113,6 +113,11 @@ Twitter URL: ${q}
         `.trim();
   },
   //====================movie======================================
+  GROUP: function (groupName) {
+    return `
+📨 *𝙎𝙝𝙖𝙧𝙚𝙙 𝙄𝙣:* ${groupName}
+        `.trim();
+  },
   SINHALASUB: function (movieData) {
     return `
 
